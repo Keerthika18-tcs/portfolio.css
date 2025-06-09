@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Keerthika Vetri Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #F8FAFC; 
+      color: #0A192F; 
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #0A192F; 
+      color: #64FFDA;
+      text-align: center;
+      padding: 40px 20px;
+      border-bottom: 5px solid #64FFDA;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    .intro-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 40px;
+      padding: 50px 10%;
+      max-width: 1200px;
+      margin: auto;
+    }
+   .photo img {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  max-height: 280px;
+  border-radius: 15px;
+  border: 4px solid #0A192F;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+
+
+
+
+    .about {
+      flex: 1;
+      min-width: 300px;
+      order: 2; 
+    }
+
+    .about h2 {
+      color: #0A192F;
+      font-size: 24px;
+      margin-bottom: 10px;
+      border-left: 4px solid #64FFDA;
+      padding-left: 10px;
+    }
+
+    .about p {
+      line-height: 1.6;
+      font-size: 16px;
+      color: #334155;
+    }
+
+    .buttons {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .buttons a {
+      padding: 12px 30px;
+      margin: 10px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #ffffff;
+      background-color: #0A192F;
+      text-decoration: none;
+      border-radius: 30px;
+      transition: background 0.3s ease, transform 0.3s ease;
+      display: inline-block;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .buttons a:hover {
+      background-color: #112D4E;
+      transform: translateY(-3px);
+    }
+
+    .contact {
+      background-color: white;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .contact h2 {
+      color: #0A192F;
+      margin-bottom: 10px;
+    }
+
+    .contact p {
+      font-weight: 500;
+      color: #334155;
+    }
+
+    .contact a {
+      color: #0A192F;
+      font-weight: 500;
+    }
+
+    .contact a:hover {
+      color: #64FFDA;
+    }
+
+    @media (max-width: 768px) {
+      .intro-section {
+        flex-direction: column;
+        padding: 30px 20px;
+      }
+      .photo, .about {
+        order: unset; 
+      }
+      .photo img {
+        max-height: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Keerthika Vetri</h1>
+    <h3>Web Developer</h3>
+    <p>AI & Data Science Student | CS Teacher</p>
+  </header>
+
+  <section class="intro-section">
+    <div class="photo">
+      <img src="./photo1.jpeg" alt="Keerthika Vetri" />
+    </div>
+
+    <div class="about">
+      <h2>About Me</h2>
+      <p>
+        I’m currently a second-year student pursuing a degree in Artificial Intelligence and Data Science.
+        I also work part-time as a Computer Science teacher at American Academy.
+        I'm passionate about technology, teaching, and constantly learning new skills in AI and data science.
+      </p>
+    </div>
+  </section>
+
+  <div class="buttons">
+    <a href="./skills.html">Skills</a>
+    <a href="./index.html">Resume</a>
+    <a href="./projects.html">Projects</a>
+    <a href="./membership.html">Membership</a>
+  </div>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>
+      <a href="mailto:kit27.ad028@gmail.com">kit27.ad028@gmail.com</a> |
+      <a href="https://www.linkedin.com/in/keerthika-vetri" target="_blank">LinkedIn: Keerthika Vetri</a>
+    </p>
+  </section>
+
+</body>
+</html>
