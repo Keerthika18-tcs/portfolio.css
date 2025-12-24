@@ -37,6 +37,4 @@ No additional build steps or dependencies are required.
 - Modify the links in the buttons section if you rename or reorganize the HTML pages.
 - Update contact details (email and LinkedIn) in the Contact section.
 
-## License
 
-You can keep this portfolio private or add a license (e.g., MIT) if you plan to share or reuse the code.
